@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   position: fixed;
   top: 0;
@@ -8,4 +8,9 @@ nav {
   right: 0;
   height: 3rem;
   background-color: #391e4c;
+}
+
+.logo {
+  width: 15rem;
+  height: auto;
 }

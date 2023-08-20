@@ -1,7 +1,10 @@
+import logo from '../../Assets/logo.png'
 import './Navbar.css'
 
 export default function Navbar() {
   return (
-    <nav></nav>
+    <nav>
+      <img className='logo' src={logo} alt='logo' />
+    </nav>
   )
 }
