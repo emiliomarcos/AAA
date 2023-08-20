@@ -1,8 +1,12 @@
+import { Navbar } from './Components'
 import './App.css'
 
 export default function App() {
 
   return (
-    <h1>AAA</h1>
+    <>
+      <Navbar />
+      <h1>AAA</h1>
+    </>
   )
 }
