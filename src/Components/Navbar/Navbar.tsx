@@ -8,9 +8,9 @@ export default function Navbar() {
       <div className='tabs'>
         <p>Soluciones</p>
         <p>Acerca de</p>
-        <p>Contáctanos</p>
+        <p>Contacto</p>
       </div>
-      <p>Agenda un demo</p>
+      <p className='agenda-demo'>Agenda un demo</p>
     </nav>
   )
 }
