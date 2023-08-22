@@ -4,13 +4,14 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <nav>
-      <img className='logo' src={logo} alt='logo' />
-      <div className='tabs'>
+      <img className='navbar-logo' src={logo} alt='logo' />
+      <div className='navbar-links'>
         <p>Soluciones</p>
         <p>Acerca de</p>
-        <p>Contáctanos</p>
+        <p>Contacto</p>
       </div>
-      <p>Agenda un demo</p>
+      <p className='navbar-demo'>Agenda un demo</p>
+      <button className='navbar-menu'>Opciones</button>
     </nav>
   )
 }
