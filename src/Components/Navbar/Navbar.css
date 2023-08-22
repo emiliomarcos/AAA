@@ -13,21 +13,70 @@ nav {
   padding-right: 15%;
 }
 
-.logo {
-  width: 15rem;
+.navbar-logo {
+  width: 14rem;
   height: auto;
 }
 
-.tabs {
+.navbar-links {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
 }
 
-.agenda-demo {
+.navbar-demo {
   border-radius: 1rem;
   padding: 0.35rem;
   border-style: solid;
   border-width: 0.07rem;
   border-color: black;
 }
+
+.navbar-menu {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-demo {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  nav {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    padding-left: 0;
+    padding-right: 2.5%;
+  }
+}
+
+/* @media (max-width: 600px) {
+  nav {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+} */
+
+/* @media (max-width: 600px) {
+  .navbar-logo {
+    width: 10rem;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+} */
