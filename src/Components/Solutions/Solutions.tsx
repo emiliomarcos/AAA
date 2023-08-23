@@ -1,6 +1,6 @@
 import './Solutions.css'
 
-export default function Navbar() {
+export default function Solutions() {
   return (
     <p>Soluciones</p>
   )
