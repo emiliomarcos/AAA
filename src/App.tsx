@@ -1,4 +1,4 @@
-import { Navbar, Solutions, About, ContactForm } from './Components'
+import { Navbar, Solutions, About, ContactForm, Footer } from './Components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
@@ -12,6 +12,7 @@ export default function App() {
         <Route path='/acercade' element={<About />} />
         <Route path='/contacto' element={<ContactForm />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
