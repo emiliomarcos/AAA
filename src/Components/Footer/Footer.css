@@ -1,6 +1,6 @@
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   bottom: 0;
@@ -10,6 +10,15 @@ footer {
   background-color: #391e4c;
 }
 
+.social-links {
+  display: flex;
+  gap: 3rem;
+}
+
 .social-icon {
   color: #fcebf3;
+}
+
+.social-icon:hover {
+  color: #B0A4AA;
 }
