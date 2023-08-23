@@ -63,20 +63,3 @@ nav {
     padding-right: 2.5%;
   }
 }
-
-/* @media (max-width: 600px) {
-  nav {
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-} */
-
-/* @media (max-width: 600px) {
-  .navbar-logo {
-    width: 10rem;
-  }
-
-  .navbar-menu {
-    display: block;
-  }
-} */
