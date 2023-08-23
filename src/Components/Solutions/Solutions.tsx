@@ -2,6 +2,6 @@ import './Solutions.css'
 
 export default function Solutions() {
   return (
-    <p>Soluciones</p>
+    <h1 className='slogan'>Maneja tu negocio <span className='futuro'>en el futuro.</span></h1>
   )
 }
