@@ -1,6 +1,6 @@
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   bottom: 0;
@@ -8,6 +8,10 @@ footer {
   right: 0;
   height: 2rem;
   background-color: #391e4c;
+}
+
+.footer-email {
+  color: #fcebf3;
 }
 
 .social-links {

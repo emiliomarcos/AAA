@@ -5,6 +5,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <footer>
+      <p className='footer-email'>email@email.com</p>
       <div className="social-links">
         <a className="social-icon" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} size="lg" />
