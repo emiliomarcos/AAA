@@ -1,4 +1,4 @@
-import { Navbar, Form } from './Components'
+import { Navbar, ContactForm } from './Components'
 import './App.css'
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
     <>
       <h1 className='slogan'>Maneja tu negocio <span className='futuro'>en el futuro.</span></h1>
       <Navbar />
-      <Form />
+      <ContactForm />
     </>
   )
 }
