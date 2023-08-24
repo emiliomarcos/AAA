@@ -13,3 +13,25 @@
   display: flex;
   gap: 5rem;
 }
+
+.solution {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .solutions {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .solution {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .solution-icon {
+    margin-top: 1rem;
+  }
+}
