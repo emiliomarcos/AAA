@@ -24,15 +24,23 @@ nav {
   gap: 3rem;
 }
 
-/* .navbar-demo {
-  padding: 0.5rem;
-  border: 0.07rem solid black;
-  border-radius: 25px;
-  box-sizing: border-box;
-} */
-
 .navbar-menu {
   display: none;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: space-around;
+  gap: 1rem;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  z-index: 1;
 }
 
 @media (max-width: 1100px) {
@@ -46,6 +54,10 @@ nav {
 
   .navbar-menu {
     display: block;
+  }
+
+  #dropdown-content {
+    display: none;
   }
 }
 
