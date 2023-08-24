@@ -9,7 +9,7 @@ export default function Navbar() {
     const dropdownContent = document.getElementById('dropdown-content')
     if (dropdownContent) {
       if (dropdownContent.style.display === 'none') {
-        dropdownContent.style.display = 'block';
+        dropdownContent.style.display = 'flex';
       } else {
         dropdownContent.style.display = 'none';
       }
@@ -26,6 +26,11 @@ export default function Navbar() {
       </div>
       <Link to="/contacto" className='navbar-demo'><button>Agenda un demo</button></Link>
       <button className='navbar-menu' onClick={toggleDropdown}><FontAwesomeIcon icon={faBars} size='xl'/></button>
+      <div id="dropdown-content">
+        <Link to="/">Soluciones</Link>
+        <Link to="/acercade">Acerca de</Link>
+        <Link to="/contacto">Contacto</Link>
+      </div>
     </nav>
   )
 }
