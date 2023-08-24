@@ -16,6 +16,13 @@ export default function Navbar() {
     }
   }
 
+  function handleResize() {
+    const dropdownContent = document.getElementById('dropdown-content')
+    if (window.innerWidth > 1100 && dropdownContent) {
+      dropdownContent.style.display = 'none';
+    }
+  }
+
   return (
     <nav>
       <Link to="/" className="navbar-title"><img className='navbar-logo' src={logo} alt='logo' /></Link>
