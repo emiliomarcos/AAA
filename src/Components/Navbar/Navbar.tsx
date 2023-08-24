@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link to="/acercade">Acerca de</Link>
         <Link to="/contacto">Contacto</Link>
       </div>
-      <Link to="/contacto" className='navbar-demo'>Agenda un demo</Link>
+      <Link to="/contacto" className='navbar-demo'><button>Agenda un demo</button></Link>
       <button className='navbar-menu'><FontAwesomeIcon icon={faBars} size='xl'/></button>
     </nav>
   )
