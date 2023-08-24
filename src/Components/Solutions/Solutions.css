@@ -8,3 +8,8 @@
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
+
+.solutions {
+  display: flex;
+  gap: 5rem;
+}

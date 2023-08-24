@@ -24,12 +24,12 @@ nav {
   gap: 3rem;
 }
 
-.navbar-demo {
+/* .navbar-demo {
   padding: 0.5rem;
   border: 0.07rem solid black;
   border-radius: 25px;
   box-sizing: border-box;
-}
+} */
 
 .navbar-menu {
   display: none;

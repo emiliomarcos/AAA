@@ -5,15 +5,15 @@ import './Footer.css'
 export default function Footer() {
   return (
     <footer>
-      <p className='footer-email'>email@email.com</p>
+      <p className='footer-email'>autonomaticomx@gmail.com</p>
       <div className="social-links">
-        <a className="social-icon" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+        <a className="social-icon" href="https://www.linkedin.com/company/autonomatico" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} size="lg" />
         </a>
-        <a className="social-icon" href="https://www.twitter.com" target="_blank" rel="noreferrer">
+        <a className="social-icon" href="https://twitter.com/autonomatico" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faXTwitter} size="lg" />
         </a>
-        <a className="social-icon" href="https://www.instagram.com" target="_blank" rel="noreferrer">
+        <a className="social-icon" href="https://instagram.com/autonomaticomx/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} size="lg" />
         </a>
       </div>
