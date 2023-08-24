@@ -13,3 +13,11 @@
   display: flex;
   gap: 5rem;
 }
+
+@media (max-width: 768px) {
+  .solutions {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+}
