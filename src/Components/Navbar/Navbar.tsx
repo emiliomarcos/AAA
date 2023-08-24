@@ -5,6 +5,17 @@ import logo from '../../Assets/navbar_logo.png'
 import './Navbar.css'
 
 export default function Navbar() {
+  function toggleDropdown() {
+    const dropdownContent = document.getElementById('dropdown-content')
+    if (dropdownContent) {
+      if (dropdownContent.style.display === 'none') {
+        dropdownContent.style.display = 'block';
+      } else {
+        dropdownContent.style.display = 'none';
+      }
+    }
+  }
+
   return (
     <nav>
       <Link to="/" className="navbar-title"><img className='navbar-logo' src={logo} alt='logo' /></Link>
@@ -14,7 +25,7 @@ export default function Navbar() {
         <Link to="/contacto">Contacto</Link>
       </div>
       <Link to="/contacto" className='navbar-demo'><button>Agenda un demo</button></Link>
-      <button className='navbar-menu'><FontAwesomeIcon icon={faBars} size='xl'/></button>
+      <button className='navbar-menu' onClick={toggleDropdown}><FontAwesomeIcon icon={faBars} size='xl'/></button>
     </nav>
   )
 }
