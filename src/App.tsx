@@ -11,6 +11,7 @@ export default function App() {
         <Route path='/' element={<Solutions />} />
         <Route path='/acercade' element={<About />} />
         <Route path='/contacto' element={<ContactForm />} />
+        <Route path='/chatbot' element={<ContactForm />} />
       </Routes>
       <Footer />
     </BrowserRouter>

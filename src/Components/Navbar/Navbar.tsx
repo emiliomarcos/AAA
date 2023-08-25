@@ -40,7 +40,7 @@ export default function Navbar() {
         <Link to="/acercade">Acerca de</Link>
         <Link to="/contacto">Contacto</Link>
       </div>
-      <Link to="/contacto" className='navbar-demo'><button>Agenda un demo</button></Link>
+      <Link to="/chatbot" className='navbar-demo'><button>Agenda un demo</button></Link>
       <button className='navbar-menu' onClick={toggleDropdown}><FontAwesomeIcon icon={faBars} size='xl'/></button>
       <div id="dropdown-content">
         <Link to="/">Soluciones</Link>
