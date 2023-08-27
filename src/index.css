@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: black;
-  background-color: #ffffff;
+  color: white;
+  background-color: #0c0418;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,13 +33,13 @@ body {
 
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 20px;
+  border: 1px solid white;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #391e4c;
+  background-color: transparent;
   color: #fcebf3;
   cursor: pointer;
   transition: border-color 0.25s;

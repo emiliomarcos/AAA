@@ -2,12 +2,11 @@
   font-size: 3rem;
 }
 
-.futuro {
-  background-color: #391e4c;
-  color: #fcebf3;
+/* .futuro {
+  color: blue;
   border-radius: 0.5rem;
   padding: 0.5rem;
-}
+} */
 
 .solutions {
   display: flex;

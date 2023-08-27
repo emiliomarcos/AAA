@@ -7,7 +7,7 @@ nav {
   left: 0;
   right: 0;
   height: 4rem;
-  background-color: #ffffff;
+  background-color: #0c0418;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
   padding-left: 15%;
   padding-right: 15%;
@@ -16,49 +16,6 @@ nav {
 .navbar-logo {
   width: 14rem;
   height: auto;
-}
-
-.navbar-links {
-  display: flex;
-  justify-content: space-between;
-  gap: 3rem;
-}
-
-.navbar-menu {
-  display: none;
-}
-
-#dropdown-content {
-  display: none;
-  position: absolute;
-  margin-top: 1rem;
-  text-align: center;
-  justify-content: space-around;
-  gap: 1rem;
-  top: 100%;
-  left: 0;
-  right: 0;
-  padding-left: 15%;
-  padding-right: 15%;
-  z-index: 1;
-}
-
-@media (max-width: 1100px) {
-  .navbar-links {
-    display: none;
-  }
-
-  .navbar-demo {
-    display: none;
-  }
-
-  .navbar-menu {
-    display: block;
-  }
-
-  #dropdown-content {
-    display: none;
-  }
 }
 
 @media (max-width: 900px) {
@@ -73,4 +30,12 @@ nav {
     padding-left: 0;
     padding-right: 2.5%;
   }
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    width: 12rem;
+    height: auto;
+  }
+
 }
