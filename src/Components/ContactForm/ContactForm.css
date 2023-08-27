@@ -11,6 +11,12 @@
 .contact-form {
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+textarea {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 768px) {

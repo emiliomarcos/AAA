@@ -9,12 +9,14 @@ export default function ContactForm() {
   return (
     <div className='contact-form-container'>
       <h3>Contacto</h3>
-      <form className='contact-form' onSubmit={handleSubmit}>
-        <input type='text' placeholder='Nombre' name='nombre'></input>
-        <input type='email' placeholder='Correo' name='correo'></input>
-        <input type='text' placeholder='Teléfono' name='telefono'></input>
-        <input type='text' placeholder='Mensaje' name='mensaje'></input>
-        <br></br>
+      <form  onSubmit={handleSubmit}>
+        <div className='contact-form'>
+          <input type='text' placeholder='Nombre' name='nombre'></input>
+          <input type='email' placeholder='Correo' name='correo'></input>
+          <input type='text' placeholder='Teléfono' name='telefono'></input>
+          {/* <input type='text' placeholder='Mensaje' name='mensaje'></input> */}
+          <textarea name="mensaje" rows={5} placeholder="Cuéntanos sobre tu empresa" />
+        </div>
         <button>Enviar</button>
       </form>
     </div>

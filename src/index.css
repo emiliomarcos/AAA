@@ -14,15 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: black;
-  text-decoration: inherit;
-}
-a:hover {
-  color: black;
-}
-
 body {
   margin: 0;
   display: flex;
@@ -30,7 +21,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
 
 button {
   border-radius: 20px;
@@ -52,7 +42,6 @@ button:hover {
 
 @media (max-width: 768px) {
   button {
-    /* Adjust these values proportionally */
     padding: 0.5em 1em;
     font-size: 0.8em;
   }
