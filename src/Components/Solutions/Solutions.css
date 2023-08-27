@@ -2,11 +2,9 @@
   font-size: 3rem;
 }
 
-/* .futuro {
-  color: blue;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-} */
+.futuro {
+  color: #593DDB;
+}
 
 .solutions {
   display: flex;
