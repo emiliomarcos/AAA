@@ -1,4 +1,20 @@
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  border-radius: 25px;
+  padding: 3rem;
+  width: 30vw;
+  height: 30vh;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .contact-form-container {
+    width: 50vw;
+  }
 }
