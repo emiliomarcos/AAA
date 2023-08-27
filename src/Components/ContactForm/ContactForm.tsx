@@ -7,7 +7,7 @@ export default function ContactForm() {
     return <p>Gracias por tu interés. Nos pondremos en contacto a la brevedad.</p>
   }
   return (
-    <>
+    <div className='contact-form-container'>
       <h3>Contacto</h3>
       <form className='contact-form' onSubmit={handleSubmit}>
         <input type='text' placeholder='Nombre' name='nombre'></input>
@@ -17,6 +17,6 @@ export default function ContactForm() {
         <br></br>
         <button>Enviar</button>
       </form>
-    </>
+    </div>
   )
 }
