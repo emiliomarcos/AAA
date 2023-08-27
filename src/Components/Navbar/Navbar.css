@@ -9,7 +9,7 @@ nav {
   height: 4rem;
   background-color: #0c0418;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-  padding-left: 15%;
+  padding-left: 13%;
   padding-right: 15%;
 }
 
@@ -18,24 +18,14 @@ nav {
   height: auto;
 }
 
-@media (max-width: 900px) {
-  nav {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-}
-
-@media (max-width: 700px) {
-  nav {
-    padding-left: 0;
-    padding-right: 2.5%;
-  }
-}
-
 @media (max-width: 768px) {
+  nav {
+    padding-left: 3%;
+    padding-right: 5%;
+  }
+
   .navbar-logo {
     width: 12rem;
     height: auto;
   }
-
 }
