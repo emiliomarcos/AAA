@@ -1,0 +1,21 @@
+.slogan {
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.futuro {
+  color: #593DDB;
+}
+
+.technology {
+  width: 70%;
+  border-radius: 25px;
+  height: auto;
+  margin-bottom: 20rem;
+}
+
+@media (max-width: 768px) {
+  .technology {
+    width: 90%;
+  }
+}
