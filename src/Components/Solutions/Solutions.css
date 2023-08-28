@@ -1,3 +1,11 @@
+.solutions-heading {
+  font-size: 3rem;
+}
+
+.soluciones {
+  color: #593DDB;
+}
+
 .solutions-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,6 +23,11 @@
   background-color: #241D2F;
   border-radius: 25px;
   padding: 2rem;
+}
+
+.solution-info {
+  color: #a0a0a0;
+  margin-bottom: 3rem;
 }
 
 /* @media (max-width: 768px) {

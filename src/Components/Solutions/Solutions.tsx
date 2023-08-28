@@ -12,16 +12,19 @@ export default function Solutions() {
 
   const solutions = solutionsData.map(solution =>
       <div className='solution'>
-        <FontAwesomeIcon className="solution-icon" icon={solution.icon} size='xl'/>
+        <FontAwesomeIcon className='solution-icon' icon={solution.icon} size='xl'/>
         <h5>{solution.title}</h5>
-        <p>{solution.info}</p>
+        <p className='solution-info'>{solution.info}</p>
       </div>
     )
 
 
   return (
-    <div className='solutions-container'>
-      {solutions}
-    </div>
+    <>
+      <h2 className='solutions-heading'><span className='soluciones'>Soluciones</span> a tu medida.</h2>
+      <div className='solutions-container'>
+        {solutions}
+      </div>
+    </>
   )
 }
