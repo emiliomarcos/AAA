@@ -8,3 +8,37 @@
   padding-bottom: 0;
   text-align: center;
 }
+
+.header {
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.header-pop {
+  color: #593DDB;
+}
+
+button {
+  border-radius: 20px;
+  border: 1.5px solid #fcebf3;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  color: #fcebf3;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: #fcebf3;
+  color: #0c0418;
+}
+
+@media (max-width: 768px) {
+  button {
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+  }
+}

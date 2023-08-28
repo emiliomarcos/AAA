@@ -21,28 +21,3 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
-button {
-  border-radius: 20px;
-  border: 1.5px solid #fcebf3;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: transparent;
-  color: #fcebf3;
-  cursor: pointer;
-  transition: 0.25s;
-}
-
-button:hover {
-  background-color: #fcebf3;
-  color: #0c0418;
-}
-
-@media (max-width: 768px) {
-  button {
-    padding: 0.5em 1em;
-    font-size: 0.8em;
-  }
-}

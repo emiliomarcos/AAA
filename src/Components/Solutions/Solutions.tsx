@@ -21,7 +21,7 @@ export default function Solutions() {
 
   return (
     <>
-      <h2 className='solutions-heading'><span className='soluciones'>Soluciones</span> a tu medida.</h2>
+      <h2 className='header'><span className='header-pop'>Soluciones</span> a tu medida.</h2>
       <div className='solutions-container'>
         {solutions}
       </div>
