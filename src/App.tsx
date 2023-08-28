@@ -18,17 +18,7 @@ export default function App() {
     <>
       <Navbar />
       <Slogan />
-      {/* <Solutions />
       <Solutions />
-      <Solutions />
-      <Solutions />
-      <Solutions />
-      <Solutions />
-      <Solutions />
-      <Solutions />
-      <Solutions />
-      <Solutions />
-      <Solutions /> */}
       <br></br>
       <About />
       <br></br>
