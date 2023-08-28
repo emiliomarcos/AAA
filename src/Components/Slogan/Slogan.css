@@ -1,0 +1,15 @@
+.slogan-container {
+  margin-bottom: 2.5rem;
+}
+
+.technology {
+  width: 70%;
+  border-radius: 25px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .technology {
+    width: 90%;
+  }
+}

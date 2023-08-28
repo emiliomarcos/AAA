@@ -1,30 +1,29 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUsers, faPeopleGroup, faUsersGear, faCalendarDays } from '@fortawesome/free-solid-svg-icons'
+import { faUsers, faPeopleGroup, faUsersGear, faCalendarDays, faRobot, faShield } from '@fortawesome/free-solid-svg-icons'
 import './Solutions.css'
 
 export default function Solutions() {
+  const solutionsData = [{title: 'Onboarding de clientes', info: 'Clientes clientes clientes clientes clientes clientes clientes clientes clientes', icon: faUsers},
+    {title: 'Onboarding de empleados', info: 'Empleados empleados empleados empleados empleados empleados empleados empleados empleados', icon: faPeopleGroup},
+    {title: 'Servicio al cliente', info: 'Servicio servicio servicio servicio servicio servicio servicio servicio servicio', icon: faUsersGear},
+    {title: 'Chatbots y automatizaciones', info: 'Chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots', icon: faRobot},
+    {title: 'Seguridad', info: 'Seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad', icon: faShield},
+    {title: 'Eficiencia', info: 'Eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia', icon: faCalendarDays}]
+
+  const solutions = solutionsData.map(solution =>
+      <div className='solution'>
+        <FontAwesomeIcon className='solution-icon' icon={solution.icon} size='xl'/>
+        <h5 className='solution-title'>{solution.title}</h5>
+        <p className='solution-info'>{solution.info}</p>
+      </div>
+    )
+
+
   return (
     <>
-      <h1 className='slogan'>Maneja tu negocio en el <span className='futuro'>futuro.</span></h1>
-      <br></br>
-      <h3>Automatizaciones y Chatbots</h3>
-      <div className='solutions'>
-        <div className='solution'>
-          <h5>Onboarding de Clientes</h5>
-          <FontAwesomeIcon className="solution-icon" icon={faUsers} size='xl'/>
-        </div>
-        <div className='solution'>
-          <h5>Onboarding de Empleados</h5>
-          <FontAwesomeIcon className="solution-icon" icon={faPeopleGroup} size='xl'/>
-        </div>
-        <div className='solution'>
-          <h5>Servicio al Cliente</h5>
-          <FontAwesomeIcon className="solution-icon" icon={faUsersGear} size='xl'/>
-        </div>
-        <div className='solution'>
-          <h5>Agenda de Citas</h5>
-          <FontAwesomeIcon className="solution-icon" icon={faCalendarDays} size='xl'/>
-        </div>
+      <h2 className='header'><span className='header-pop'>Soluciones</span> a tu medida.</h2>
+      <div className='solutions-container'>
+        {solutions}
       </div>
     </>
   )

@@ -2,29 +2,23 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* clear: both;
-  width: 100%; */
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 2rem;
-  background-color: #391e4c;
+  margin-top: 10rem;
+  gap: 1.5rem;
 }
 
 .footer-email {
   color: #fcebf3;
 }
 
-.social-links {
+.footer-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
-.social-icon {
+.footer-icon {
   color: #fcebf3;
 }
 
-.social-icon:hover {
+.footer-icon:hover {
   color: #B0A4AA;
 }

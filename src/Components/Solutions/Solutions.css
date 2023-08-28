@@ -1,37 +1,39 @@
-.slogan {
-  font-size: 3rem;
-}
-
-.futuro {
-  background-color: #391e4c;
-  color: #fcebf3;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-}
-
-.solutions {
-  display: flex;
-  gap: 5rem;
+.solutions-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .solution {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.solution-title {
+  font-size: 1.25rem;
+}
+
+.solution-icon {
+  color: #593DDB;
+  background-color: #241D2F;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.solution-info {
+  color: #a0a0a0;
+}
+
+@media (max-width: 992px) {
+  .solutions-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  .solutions {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-  }
-
-  .solution {
-    flex-direction: row;
-    gap: 1rem;
-  }
-
-  .solution-icon {
-    margin-top: 1rem;
+  .solutions-container {
+    grid-template-columns: 1fr;
   }
 }
