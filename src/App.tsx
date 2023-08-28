@@ -1,4 +1,4 @@
-import { Navbar, Slogan, Solutions, About, Contact, Footer } from './Components'
+import { Navbar, Slogan, Solutions, Contact, Footer } from './Components'
 import './App.css'
 
 export default function App() {
@@ -8,7 +8,6 @@ export default function App() {
       <Navbar />
       <Slogan />
       <Solutions />
-      {/* <About /> */}
       <Contact />
       <Footer />
     </>
