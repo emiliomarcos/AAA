@@ -1,3 +1,11 @@
+.contact-header {
+  font-size: 3rem;
+}
+
+.necesidades {
+  color: #593DDB;
+}
+
 .contact-form-container {
   display: flex;
   flex-direction: column;

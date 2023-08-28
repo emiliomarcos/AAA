@@ -21,8 +21,7 @@ export default function App() {
       <Solutions />
       <br></br>
       {/* <About /> */}
-      <br></br>
-      {/* <Contact /> */}
+      <Contact />
       <br></br>
       <Footer />
     </>
