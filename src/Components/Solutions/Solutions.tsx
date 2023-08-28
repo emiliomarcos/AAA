@@ -13,7 +13,7 @@ export default function Solutions() {
   const solutions = solutionsData.map(solution =>
       <div className='solution'>
         <FontAwesomeIcon className='solution-icon' icon={solution.icon} size='xl'/>
-        <h5>{solution.title}</h5>
+        <h5 className='solution-title'>{solution.title}</h5>
         <p className='solution-info'>{solution.info}</p>
       </div>
     )
