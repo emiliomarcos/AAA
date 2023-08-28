@@ -4,11 +4,11 @@ import './Solutions.css'
 
 export default function Solutions() {
   const solutionsData = [{title: 'Onboarding de clientes', info: 'Clientes clientes clientes clientes clientes clientes clientes clientes clientes', icon: faUsers},
-  {title: 'Onboarding de empleados', info: 'Empleados empleados empleados empleados empleados empleados empleados empleados empleados', icon: faPeopleGroup},
-  {title: 'Servicio al cliente', info: 'Servicio servicio servicio servicio servicio servicio servicio servicio servicio', icon: faUsersGear},
-  {title: 'Chatbots y automatizaciones', info: 'Chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots', icon: faRobot},
-  {title: 'Seguridad', info: 'Seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad', icon: faShield},
-  {title: 'Eficiencia', info: 'Eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia', icon: faCalendarDays}]
+    {title: 'Onboarding de empleados', info: 'Empleados empleados empleados empleados empleados empleados empleados empleados empleados', icon: faPeopleGroup},
+    {title: 'Servicio al cliente', info: 'Servicio servicio servicio servicio servicio servicio servicio servicio servicio', icon: faUsersGear},
+    {title: 'Chatbots y automatizaciones', info: 'Chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots', icon: faRobot},
+    {title: 'Seguridad', info: 'Seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad', icon: faShield},
+    {title: 'Eficiencia', info: 'Eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia', icon: faCalendarDays}]
 
   const solutions = solutionsData.map(solution =>
       <div className='solution'>
@@ -20,8 +20,8 @@ export default function Solutions() {
 
 
   return (
-    <>
+    <div className='solutions-container'>
       {solutions}
-    </>
+    </div>
   )
 }

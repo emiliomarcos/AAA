@@ -20,9 +20,9 @@ export default function App() {
       <Slogan />
       <Solutions />
       <br></br>
-      <About />
+      {/* <About /> */}
       <br></br>
-      <Contact />
+      {/* <Contact /> */}
       <br></br>
       <Footer />
     </>
