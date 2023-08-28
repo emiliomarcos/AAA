@@ -1,4 +1,4 @@
-import { Navbar, Solutions, About, ContactForm, Footer } from './Components'
+import { Navbar, Solutions, About, Contact, Footer } from './Components'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
@@ -31,7 +31,7 @@ export default function App() {
       <br></br>
       <About />
       <br></br>
-      <ContactForm />
+      <Contact />
       <br></br>
       <Footer />
     </>

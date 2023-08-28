@@ -1,5 +1,5 @@
 import { useForm } from '@formspree/react'
-import './ContactForm.css'
+import './Contact.css'
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('moqodlba');
