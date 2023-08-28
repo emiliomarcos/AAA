@@ -11,6 +11,13 @@
   gap: 5rem;
 }
 
+/* .technology {
+  width: 70%;
+  border-radius: 25px;
+  height: auto;
+  margin-bottom: 20rem;
+} */
+
 .solution {
   display: flex;
   flex-direction: column;

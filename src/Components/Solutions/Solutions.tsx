@@ -1,3 +1,4 @@
+// import technology from '../../Assets/technology.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsers, faPeopleGroup, faUsersGear, faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import './Solutions.css'
@@ -7,6 +8,7 @@ export default function Solutions() {
     <>
       <h1 className='slogan'>Maneja tu negocio en el <span className='futuro'>futuro.</span></h1>
       <br></br>
+      {/* <img className='technology' src={technology} alt='tecnologia'/> */}
       <h3>Automatizaciones y Chatbots</h3>
       <div className='solutions'>
         <div className='solution'>
