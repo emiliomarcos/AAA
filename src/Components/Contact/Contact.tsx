@@ -10,14 +10,13 @@ export default function ContactForm() {
     <>
       <h2 className='header'>Entender <span className='header-pop'>tus necesidades</span> es el primer paso.</h2>
       <div className='contact-form-container'>
-        <h3>Contacto</h3>
-        <form  onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
+          <h3 className='contact-title'>Contacto</h3>
           <div className='contact-form'>
-            <input type='text' placeholder='Nombre' name='nombre'></input>
-            <input type='email' placeholder='Correo' name='correo'></input>
-            <input type='text' placeholder='Teléfono' name='telefono'></input>
-            {/* <input type='text' placeholder='Mensaje' name='mensaje'></input> */}
-            <textarea name="mensaje" rows={5} placeholder="Cuéntanos sobre tu empresa" />
+            <input name='nombre' type='text' placeholder='Nombre'></input>
+            <input name='correo' type='email' placeholder='Correo'></input>
+            <input name='telefono' type='text' placeholder='Teléfono'></input>
+            <textarea name="mensaje" rows={5} placeholder='Cuéntanos sobre tu empresa' />
           </div>
           <button>Enviar</button>
         </form>
