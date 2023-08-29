@@ -3,12 +3,12 @@ import { faUsers, faPeopleGroup, faUsersGear, faStopwatch, faRobot, faShield } f
 import './Solutions.css'
 
 export default function Solutions() {
-  const solutionsData = [{title: 'Onboarding de clientes', info: 'Automatiza el onboarding de tus clientes con IA que conoce tus productos y aprende de forma independiente.', icon: faUsers},
-    {title: 'Onboarding de empleados', info: 'Automatiza el onboarding de tus empleados con IA que conoce tus procesos y aprende de forma independiente.', icon: faPeopleGroup},
+  const solutionsData = [{title: 'Onboarding de clientes', info: 'Reducimos el tiempo de incorporación de tus clientes con herramientas flexibles que aprenden de forma independiente.', icon: faUsers},
+    {title: 'Onboarding de empleados', info: 'Aceleramos la integración de nuevos empleados, minimizando errores y dándole prioridad a la productividad.', icon: faPeopleGroup},
     {title: 'Servicio al cliente', info: 'Despreocúpate de problemas frecuentes con herramientas entrenadas para ayudar diréctamente a tus clientes.', icon: faUsersGear},
-    {title: 'Chatbots y automatizaciones', info: 'Maneja tu negocio 24/7 con chatbots y automatizaciones hechos a la medidas de tus necesidades.', icon: faRobot},
-    {title: 'Seguridad', info: 'Protegemos la confidencialidad e integridad de tus datos mediante encriptación de nivel empresarial y políticas de seguridad rigurosas.', icon: faShield},
-    {title: 'Eficiencia', info: 'Nuestras soluciones aumentan la eficiencia operativa, permitiéndote centrarte en tareas estratégicas mientras las automatizaciones manejan las operaciones diarias.', icon: faStopwatch}]
+    {title: 'Chatbots y automatizaciones', info: 'Aumentamos tus ventas y eficiencia con soluciones de IA y automatización disponibles 24/7 en diferentes canales.', icon: faRobot},
+    {title: 'Seguridad', info: 'Protegemos tus datos utilizando herramientas de alta seguridad para gestionar la información y asegurando la confidencialidad.', icon: faShield},
+    {title: 'Eficiencia', info: 'Nuestras soluciones aumentan la productividad y eficiencia operativa, permitiéndote centrarte en lo más importante.', icon: faStopwatch}]
 
   const solutions = solutionsData.map(solution =>
     <div className='solution'>
