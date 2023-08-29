@@ -8,7 +8,7 @@ export default function ContactForm() {
   }
   return (
     <>
-      <h2 className='header'>Entender <span className='header-pop'>tus necesidades</span> es el primer paso.</h2>
+      <h2 className='header'>Compartirnos <span className='header-pop'>tus necesidades</span> es el primer paso.</h2>
       <div className='contact-form-container'>
         <form onSubmit={handleSubmit}>
           <h3 className='contact-title'>Contacto</h3>
