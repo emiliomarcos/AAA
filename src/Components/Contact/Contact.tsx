@@ -4,7 +4,7 @@ import './Contact.css'
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('moqodlba');
   if (state.succeeded) {
-    return <p>Gracias por tu interés. Nos pondremos en contacto a la brevedad.</p>
+    return <h3 className='contact-success'>Gracias por tu interés. Nos pondremos en contacto a la brevedad.</h3>
   }
   return (
     <>
