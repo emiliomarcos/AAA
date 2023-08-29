@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUsers, faPeopleGroup, faUsersGear, faCalendarDays, faRobot, faShield } from '@fortawesome/free-solid-svg-icons'
+import { faUsers, faPeopleGroup, faUsersGear, faStopwatch, faRobot, faShield } from '@fortawesome/free-solid-svg-icons'
 import './Solutions.css'
 
 export default function Solutions() {
@@ -8,7 +8,7 @@ export default function Solutions() {
     {title: 'Servicio al cliente', info: 'Servicio servicio servicio servicio servicio servicio servicio servicio servicio', icon: faUsersGear},
     {title: 'Chatbots y automatizaciones', info: 'Chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots chatbots', icon: faRobot},
     {title: 'Seguridad', info: 'Seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad seguridad', icon: faShield},
-    {title: 'Eficiencia', info: 'Eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia', icon: faCalendarDays}]
+    {title: 'Eficiencia', info: 'Eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia eficiencia', icon: faStopwatch}]
 
   const solutions = solutionsData.map(solution =>
       <div className='solution'>
