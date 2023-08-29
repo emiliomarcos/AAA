@@ -20,6 +20,10 @@
   font-size: 1.25rem;
 }
 
+.contact-success {
+  font-size: 1.25rem;
+}
+
 input, textarea {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   border-radius: 20px;
